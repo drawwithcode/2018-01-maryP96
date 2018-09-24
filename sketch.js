@@ -10,14 +10,52 @@ function draw() {
 	background(204);
 
 	//Neck
-	line(250, 285, 250, 345);
+	rectMode(CENTER);
+	rect(250, 270, 30, 90);
 
 	//Wheel
-	ellipse(250, 465, 70, 70);
+	rect(250, 450, 30, 50);
+	ellipse(250, 480, 30, 30);
+	ellipse(200, 480, 30, 30);
+	ellipse(300, 480, 30, 30);
+	rect(250, 470, 150, 20);
+
+  //arms
+	line(170, 320, 100, 300);
+	line(330, 320, 400, 300);
+	ellipse(170, 320, 20, 20);
+	ellipse(330, 320, 20, 20);
+
+
 
 	//Body
-	rect(200, 325, 100, 140);
+	rectMode(CENTER);
+	rect(250, 370, 150, 130);
+	ellipse(200,340,15,15);
+	ellipse(250,340,15,15);
+	ellipse(300,340,15,15);
+	rectMode(CORNER);
+	rect(200,360,100,60);
 
 	//Head
-	ellipse(250, 240, 90, 90);
+  line(180, 180, 225, 200);
+	line(280, 180, 250, 200);
+	ellipse(250, 240, 150, 90);
+
+	//eyes
+	ellipse(220, 230, 20, 20);
+	ellipse(280, 230, 20, 20);
+	ellipse(220, 230, 5, 5);
+	ellipse(280, 230, 5, 5);
+
+	//mouth
+	rectMode(CENTER);
+	rect(250, 260, 40, 10);
+
+	//hear
+	rect(170, 240, 10, 20);
+	rect(160, 240, 15, 30);
+
+	rect(330, 240, 10, 20);
+	rect(340, 240, 15, 30);
 }

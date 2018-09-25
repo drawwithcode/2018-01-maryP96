@@ -7,7 +7,10 @@ function setup() {
 }
 
 function draw() {
-	background(95, 222,199);
+	//background(95, 222,199);
+//background(219, 173,114);
+	background(240, 211,165);
+
 
 	//Neck
 	fill(233,96,6);

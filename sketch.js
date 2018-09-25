@@ -20,7 +20,8 @@ function draw() {
 	//Wheel
 	fill(233,96,6);
 	rect(250, 450, 30, 50);
-	fill(233,96,6);
+	//fill(233,96,6);
+	fill(11,80,76);
 	ellipse(250, 480, 30, 30);
 	ellipse(200, 480, 30, 30);
 	ellipse(300, 480, 30, 30);
@@ -55,6 +56,15 @@ function draw() {
 	fill(233,96,6);
 	rectMode(CORNER);
 	rect(200, 360, 100, 60, 5);
+	//zigzag
+	strokeWeight(2);
+	stroke(178,0,0);
+	line(200,360,220,410);
+	line(220,410,230,370);
+	line(230,370,250,400);
+	line(250,400, 270,375);
+	line(270,375, 280,405);
+	line(280,405, 300, 380);
 
 	//Head
 	strokeWeight(2);

@@ -52,7 +52,8 @@ function draw() {
 	ellipse(280, 230, 20, 20);
 	ellipse(220, 230, 5, 5);
 	ellipse(280, 230, 5, 5);
-
+	line(220,230, mouseX, mouseY);
+	line(280,230, mouseX, mouseY);
 	//mouth
 	rectMode(CENTER);
 	rect(250, 260, 40, 10);
@@ -63,4 +64,5 @@ function draw() {
 
 	rect(330, 240, 10, 20);
 	rect(340, 240, 15, 30);
+
 }

@@ -7,8 +7,6 @@ function setup() {
 }
 
 function draw() {
-	//background(95, 222,199);
-//background(219, 173,114);
 	background(240, 211,165);
 
 
@@ -85,17 +83,14 @@ function draw() {
 	fill(0,0,0);
 	ellipse(220, 230, 15, 15);
 	ellipse(280, 230, 10, 10);
-	//laser
-	strokeWeight(20);
-	stroke(248,255,7,70);
-	line(220,230, mouseX, mouseY);
-	line(280,230, mouseX, mouseY);
-	noStroke();
+
+
 
 	//mouth
 	fill(11,80,76);
 	rectMode(CENTER);
 	arc(255, 257, 150, 80,  TWO_PI, PI);
+
 
 	//hear
 	fill(233,96,6);
@@ -107,5 +102,11 @@ function draw() {
 	rect(328, 240, 10, 20);
 	fill(13,153,124);
 	rect(338, 240, 15, 30, 5);
+	//laser
+	strokeWeight(20);
+	stroke(248,255,7,70);
+	line(220,230, mouseX, mouseY);
+	line(280,230, mouseX, mouseY);
+	noStroke();
 
 }
